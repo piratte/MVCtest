@@ -14,7 +14,7 @@ public class TestController {
 			Model model) {
 		model.addAttribute("name", name);
 		System.out.println("I'm alive and returning a string!");
-		return "welcome";
+		return "string";
 	}
 	
 	@RequestMapping("/array/")
